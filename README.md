@@ -1,6 +1,5 @@
 # macOS-config
 
-
 ## Screenshots
 
 - 修改截图文件名前缀
@@ -15,7 +14,6 @@
   mkdir -p ~/Documents/screenshots
   defaults write com.apple.screencapture location ~/Documents/screenshots
   ```
-
 
 ## Xcode
 
@@ -43,13 +41,20 @@
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   ```
 
+## Homebrew
+
+- 安装 Homebrew [官方网站](https://brew.sh/zh-cn/)
+
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+
 - 配置环境变量
 
   ```bash
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
-
 
 - 安装常用的软件
 
@@ -72,7 +77,7 @@
 
 ## Rime for macOS
 
-配置 squirrel 输入法， 参考repo:
+配置 squirrel 输入法， 参考 repo:
 
 - [雾凇拼音](https://github.com/iDvel/rime-ice)
 - [Rime configuration for Squirrel](https://github.com/alswl/Rime)
