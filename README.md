@@ -69,3 +69,21 @@
   brew cleanup
   brew cleanup -s --prune=all
   ```
+
+## Rime for macOS
+
+配置 squirrel 输入法， 参考repo:
+
+- [雾凇拼音](https://github.com/iDvel/rime-ice)
+- [Rime configuration for Squirrel](https://github.com/alswl/Rime)
+
+## 配置 Node 环境
+
+我们使用 [n](https://github.com/tj/n) 来管理 Node 版本
+
+- 配置环境变量
+
+  ```bash
+  export N_PREFIX=$HOME/.n
+  export PATH=$N_PREFIX/bin:$PATH
+  ```
