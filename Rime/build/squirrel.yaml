@@ -1,0 +1,100 @@
+__build_info:
+  rime_version: 1.11.2
+  timestamps:
+    squirrel: 1730030087
+    squirrel.custom: 1730031374
+app_options:
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    no_inline: true
+    vim_mode: false
+  com.google.Chrome.app.jndbnbljngolcchhjbajncidekccnlck:
+    no_inline: true
+  com.googlecode.iterm2:
+    no_inline: true
+    vim_mode: false
+  com.ident.goneovim:
+    no_inline: true
+    vim_mode: true
+  com.jetbrains.WebStorm:
+    vim_mode: true
+  com.jetbrains.datagrip:
+    vim_mode: true
+  com.jetbrains.intellij:
+    vim_mode: true
+  com.microsoft.edgemac.app.jndbnbljngolcchhjbajncidekccnlck:
+    no_inline: true
+  com.qvacua.VimR:
+    no_inline: true
+    vim_mode: true
+  md.obsidian:
+    vim_mode: true
+  net.kovidgoyal.kitty:
+    vim_mode: true
+  org.vim.MacVim:
+    no_inline: true
+    vim_mode: true
+  uk.foon.Neovim:
+    no_inline: true
+    vim_mode: true
+chord_duration: 0.1
+config_version: "2023-02-27"
+keyboard_layout: default
+preset_color_schemes:
+  apathy:
+    author: "LIANG Hai "
+    back_color: 0xFFFFFF
+    border_height: 1
+    border_width: 1
+    candidate_format: "%c %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x999999
+    corner_radius: 4
+    font_face: "PingFangSC-Regular,PingFangTC-Regular"
+    font_point: 16
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
+    horizontal: true
+    inline_preedit: true
+    label_font_face: "PingFangSC-Light,HanaMinA"
+    label_font_point: 12
+    name: "冷漠 / Apathy"
+    text_color: 0x424242
+  homepage:
+    author: alswl
+    back_color: 0x444444
+    border_height: 0
+    border_width: 0
+    candidate_format: "%c %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: "PingFangSC-Medium,PingFangTC-Medium"
+    font_point: 15
+    hilited_candidate_back_color: 0xD3BC00
+    hilited_candidate_text_color: 0xFFFFFF
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 14
+    name: "官网 / Homepage"
+    text_color: 0xEEEEEE
+  jike:
+    author: Ryekee
+    back_color: 0x11E4FF
+    border_height: 0
+    border_width: 0
+    candidate_format: "%c  %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x000000
+    font_face: "PingFangSC-Medium,PingFangTC-Medium"
+    hilited_candidate_back_color: 0xF4B95F
+    hilited_candidate_text_color: 0xFFFFFF
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 14
+    name: "即刻黄"
+    text_color: 0xFFFFFF
+show_notifications_when: appropriate
+style:
+  color_scheme: apathy
