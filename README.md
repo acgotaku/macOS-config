@@ -65,7 +65,7 @@
 - 安装常用的 cask
 
   ```bash
-  brew install appcleaner google-chrome iina iterm2 keka kekaexternalhelper firefox microsoft-edge visual-studio-code vmware-fusion brave-browser
+  brew install appcleaner google-chrome iina iterm2 keka kekaexternalhelper firefox microsoft-edge visual-studio-code vmware-fusion brave-browser squirrel
   ```
 
 - 清理 Homebrew 缓存
@@ -91,4 +91,13 @@
   ```bash
   export N_PREFIX=$HOME/.n
   export PATH=$N_PREFIX/bin:$PATH
+  ```
+
+## GitHub
+
+- 配置 GitHub 账号
+
+  ```bash
+  git config --global user.name "your_name"
+  git config --global user.email "your_email@example.com"
   ```
