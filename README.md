@@ -75,6 +75,20 @@
   brew cleanup -s --prune=all
   ```
 
+## iTerm2
+
+- 配置关闭所有窗口时退出 iTerm2
+
+  iTerm2 -> Settings -> General -> Closing, 选中 Quit when all windows are closed
+
+- 禁用鼠标点击选中命令
+
+  iTerm2 -> Settings -> General -> Selection, 取消选中 Click on a command selects it to restrict Find and Filter
+
+- 修改主题颜色为黑色
+
+  iTerm2 -> Settings -> Profiles -> Colors, 取消选中 Use different colors for light mode and dark mode, Color Presets 选择 Dark Background
+
 ## Rime for macOS
 
 配置 squirrel 输入法， 参考 repo:
@@ -86,7 +100,7 @@
 
 我们使用 [n](https://github.com/tj/n) 来管理 Node 版本
 
-- 配置环境变量
+- 配置环境变量到 .zshrc
 
   ```bash
   export N_PREFIX=$HOME/.n
@@ -100,4 +114,12 @@
   ```bash
   git config --global user.name "your_name"
   git config --global user.email "your_email@example.com"
+  ```
+
+## Office
+
+- 禁用 office 自动更新
+
+  ```bash
+  launchctl unload -w /Library/LaunchAgents/com.microsoft.update.agent.plist
   ```
